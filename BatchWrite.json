@@ -1,0 +1,64 @@
+{
+  "cz_user": [
+    {
+      "PutRequest": {
+        "Item": {
+          "user_id": {"S": "2"},
+          "user_name": {"S": "zac2"},
+          "user_age": {"N": "22"},
+          "create_date": {"S": "2020-06-01"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "user_id": {"S": "3"},
+          "user_name": {"S": "zac3"},
+          "user_age": {"N": "23"},
+          "create_date": {"S": "2020-06-01"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "user_id": {"S": "4"},
+          "user_name": {"S": "zac4"},
+          "user_age": {"N": "24"},
+          "create_date": {"S": "2020-06-01"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "user_id": {"S": "5"},
+          "user_name": {"S": "zac5"},
+          "user_age": {"N": "25"},
+          "create_date": {"S": "2020-06-01"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "user_id": {"S": "6"},
+          "user_name": {"S": "zac6"},
+          "user_age": {"N": "26"},
+          "create_date": {"S": "2020-06-01"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "user_id": {"S": "7"},
+          "user_name": {"S": "zac7"},
+          "user_age": {"N": "27"},
+          "create_date": {"S": "2020-06-01"}
+        }
+      }
+    }
+  ]
+}

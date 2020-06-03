@@ -1,0 +1,20 @@
+[
+  {
+    "Create": {
+      "IndexName": "AgeIndex",
+      "KeySchema": [
+        {
+          "AttributeName": "user_age",
+          "KeyType": "HASH"
+        }
+      ],
+      "Projection": {
+        "ProjectionType": "ALL"
+      },
+      "ProvisionedThroughput": {
+        "ReadCapacityUnits": 1,
+        "WriteCapacityUnits": 1
+      }
+    }
+  }
+]
